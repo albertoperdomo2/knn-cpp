@@ -1,6 +1,6 @@
 # knn-cpp
 
-This project is a simple implementation of a cpp library. In this case, I decided to implement a simple algorithm such as the K-Nearest Neighbor Algorithm. With this project, rather than work on a complex project, I decided to build a simple "Machine Learning" library to perform KNN inference in order to validate some OOP concepts that I have been learnign recently as well as my knowledge on how to structure a cpp project. 
+This project is a super simple implementation of a cpp library. In this case, I decided to implement a simple algorithm such as the K-Nearest Neighbor Algorithm. With this project, rather than work on a complex project, I decided to build a simple "Machine Learning" library to perform KNN inference in order to validate some OOP concepts that I have been learnign recently as well as my knowledge on how to structure a cpp project. 
 
 ## KNN Algorithm
 The k-nearest neighbor algorithm is a non-parametric (aka being distribution-free) classification that is used for both regression and classification. 
