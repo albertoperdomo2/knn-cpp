@@ -21,7 +21,7 @@ So, as I have stated several times, it is a simple version of the algorithm and 
 - Public attributes: 
 	- `neighbours_number`, which is basically `k` and defines the number of nearest neighbors to use.
 
-The `src/main.cpp` is shows an example on how to use the 'library' (I don't think is complex/big/useful enough to be called so). It uses some data for the well-known [Iris Flower Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). 
+The `src/main.cpp` shows an example on how to use the 'library' (I don't think is complex/big/useful enough to be called so). It uses some data for the well-known [Iris Flower Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). 
 
 # TODO
 There are a lot of things that I might add to this simpole project, but one of them would be build a more generalized model for the training dataset. 
