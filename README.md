@@ -10,16 +10,16 @@ The idea behind the algorithm is really simple and it shouldn't be confused with
 It can use different types of norms to measure the distance between the neighbors, but in this case I have decided to rely on the basics and use the euclidean norm aka l2 norm. 
 
 So, as I have stated several times, it is a simple version of the algorithm and the Knn object (which is thought to be a 'model' object) contains the following attributes and methods:
-	
-	- Private methods:
-		- `euclidean_distance` method, to get the l2 norm with all its neighbors. 
-		- `get_knn` method, which gets the information about the k nearest neighbors based on the euclidean distance between them and the POI.
 
-	- Public methods:
-		- `predict_class` method, which is the main method of the ones implemented and is the one which returns the inferred class.
+- Private methods:
+	- `euclidean_distance` method, to get the l2 norm with all its neighbors. 
+	- `get_knn` method, which gets the information about the k nearest neighbors based on the euclidean distance between them and the POI.
 
-	- Public attributes: 
-		- `neighbours_number`, which is basically `k` and defines the number of nearest neighbors to use.
+- Public methods:
+	- `predict_class` method, which is the main method of the ones implemented and is the one which returns the inferred class.
+
+- Public attributes: 
+	- `neighbours_number`, which is basically `k` and defines the number of nearest neighbors to use.
 
 The `src/main.cpp` is shows an example on how to use the 'library' (I don't think is complex/big/useful enough to be called so). It uses some data for the well-known [Iris Flower Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). 
 
