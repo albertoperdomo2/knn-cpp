@@ -24,4 +24,4 @@ So, as I have stated several times, it is a simple version of the algorithm and 
 The `src/main.cpp` shows an example on how to use the 'library' (I don't think is complex/big/useful enough to be called so). It uses some data for the well-known [Iris Flower Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). 
 
 # TODO
-There are a lot of things that I might add to this simpole project, but one of them would be build a more generalized model for the training dataset. 
+There are a lot of things that I may add to this simple project, but one of them would be to build a more general model for the training dataset. 
