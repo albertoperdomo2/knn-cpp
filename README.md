@@ -3,9 +3,9 @@
 This project is a super simple implementation of a cpp library. In this case, I decided to implement a simple algorithm such as the K-Nearest Neighbor Algorithm. With this project, rather than work on a complex project, I decided to build a simple "Machine Learning" library to perform KNN inference in order to validate some OOP concepts that I have been learnign recently as well as my knowledge on how to structure a cpp project. 
 
 ## KNN Algorithm
-The k-nearest neighbor algorithm is a non-parametric (aka being distribution-free) classification that is used for both regression and classification. 
+The k-nearest neighbor algorithm is a non-parametric (aka being distribution-free) classification algorithm that is used for both regression and classification. 
 
-The idea behind the algorithm is really simple and it shouldn't be confused with the k-means clustering algorithm, even though some clustering might apply in this case. The KNN algorithm predicts the label of class of a data point based on the label of its K nearest neighbors, so in some sense it builds a cluster with the K nearest neightbors. The predominant class in that cluster will be given to the unknown data point, so, an object is classified by a plurarity vote of its neighbors and it's given the most common class in that neighborhood. 
+The idea behind the algorithm is really simple and it shouldn't be confused with the k-means clustering algorithm, even though some clustering might be considered in this case. The KNN algorithm predicts the label of class of a data point based on the label of its K nearest neighbors, so in some sense it builds a cluster with the K nearest neighbours. The predominant class in that cluster will be given to the unknown data point, so, an object is classified by a plurarity vote of its neighbors and it's given the most common class in that neighborhood. 
 
 It can use different types of norms to measure the distance between the neighbors, but in this case I have decided to rely on the basics and use the euclidean norm aka l2 norm. 
 
